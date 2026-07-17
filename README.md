@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product Listing App
+
+A Next.js app that fetches and displays product data from the [DummyJSON API](https://dummyjson.com/), built while learning the Next.js App Router.
+
+🔗 **Live demo:** [subtle-snickerdoodle-44f4de.netlify.app](https://subtle-snickerdoodle-44f4de.netlify.app/)
+<img width="1880" height="925" alt="Image" src="https://github.com/user-attachments/assets/a49bb212-de3a-4a7e-854c-9f048fd2554f" />
+
+## Features
+
+- Fetches live product data from DummyJSON
+- Displays product listings with images, titles, and pricing
+- Built with the Next.js App Router
+- Styled with Tailwind CSS
+- Optimized image loading via `next/image`
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) (App Router)
+- [Tailwind CSS](https://tailwindcss.com)
+- [DummyJSON](https://dummyjson.com) for mock product data
 
 ## Getting Started
 
-First, run the development server:
+Clone the repo and install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## What I Learned
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Building this project involved working through:
+- Props destructuring between components
+- Configuring `next/image` for external image domains
+- Styling with Tailwind CSS
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is deployed on [Netlify](https://www.netlify.com/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for learning purposes.
