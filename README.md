@@ -2,7 +2,9 @@
 
 A Next.js app that fetches and displays product data from the [DummyJSON API](https://dummyjson.com/), built while learning the Next.js App Router.
 
-🔗 **Live demo:** [subtle-snickerdoodle-44f4de.netlify.app](https://subtle-snickerdoodle-44f4de.netlify.app/)
+🔗 **Live demo:** [Vercel](https://my-nextjs-app-kohl-nu.vercel.app/)
+<br>
+🔗 **Live demo:** [(use vpn)Netlify](https://subtle-snickerdoodle-44f4de.netlify.app/)
 <img width="1880" height="925" alt="Image" src="https://github.com/user-attachments/assets/a49bb212-de3a-4a7e-854c-9f048fd2554f" />
 
 ## Features
