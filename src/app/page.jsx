@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import './globals.css'
 import Figure from './components/Figure'
@@ -42,6 +43,38 @@ export default function Page() {
           </article>
         ))}
       </div>
+      <Footer />
     </main>
+  )
+}
+
+function Footer() {
+ 
+  return (
+    <footer className="w-full bg-slate-800 text-slate-300 py-10 mt-20 border-t border-slate-700">
+      <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+        
+        
+        <div className="mb-6 md:mb-0">
+          <Image 
+              src="/my-photo.jpg" // Path to your file in the public folder
+              alt="My Photo"
+              width={48}
+              height={48}
+              className="object-cover rounded-2xl"
+            />
+          <h2 className="text-xl font-bold text-white">Elyas forghani</h2>
+          <p className="text-sm text-slate-400">© 2026 All rights reserved.</p>
+        </div>
+
+        {/* Links */}
+        <div className="flex gap-8">
+          <a href="https://github.com/Elyasforghani" className="hover:text-white transition-colors duration-200">GitHub</a>
+          <a href="https://www.linkedin.com/in/alireza-forghani-b4746b263/" className="hover:text-white transition-colors duration-200">LinkedIn</a>
+          <a href="mailto:elyasfgidev@gmail.com" className="hover:text-white transition-colors duration-200">Contact</a>
+        </div>
+        
+      </div>
+    </footer>
   )
 }
